@@ -1,0 +1,37 @@
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form" [formGroup]="recargaForm">
+            <span class="contact100-form-title">
+                Registrar
+            </span>
+
+            <div class="wrap-input100 validate-input" data-validate="Digite el operador">
+                <input class="input100" type="text" name="operador" placeholder="Operador" 
+                formControlname="operador" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Digite el valor">
+                <input class="input100" type="number" name="valor" placeholder="Valor" 
+                formControlname="valor" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Digite el valor">
+                <input class="input100" type="number" name="numero" placeholder="Número" 
+                formControlname="numero" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn" click="crear()">
+                    Recargar
+                </button>
+            </div>
+        </form>
+
+        <div class="contact100-more">
+            Leidy Caterine Santos Alvarez <span class="contact100-more-highlight">leidysantos103@gmail.com</span>
+        </div>
+    </div>
+</div>
